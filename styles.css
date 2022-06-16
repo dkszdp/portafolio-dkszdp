@@ -1,0 +1,246 @@
+:root {
+    --main-blue: #3a92d1;
+    --second-blue: #45567d;
+    --main-white: #ffffff;
+    --main-gray: #4c4c4c;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+}
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+h1 {
+    font-size: 6rem;
+}
+h2 {
+    font-size: 4.2rem;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-blue);
+    z-index: 10;
+}
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+} 
+@media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+    .nav-list {
+      margin: 0 1rem;
+    }
+} 
+.nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+}
+.nav-list a:hover {
+    background: var(--second-blue);
+}
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+.welcome-section > p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--main-blue);
+}
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--second-blue);
+}
+.projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+}
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 7rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    justify-content: center;
+    justify-items: center;
+}
+.card {
+    height: 30rem;
+    width: 30rem;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.card img {
+    height: 100%;
+    width: 100%;
+}
+.card:hover .details {
+    opacity: 1;
+    height: 100%;
+}
+.details {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.details h1 {
+    margin: 10px;
+    font-size: 30px;
+}
+.details p {
+    margin: 2px 0;
+    font-size: 12px;
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: var(--main-gray);
+}
+.contact-header-section > h2 {
+    font-size: 6rem;
+}  
+@media (max-width: 28.75em) {
+    .contact-header-section > h2 {
+      font-size: 4rem;
+    }
+}
+.contact-header-section > p {
+    font-style: italic;
+} 
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+.contact-details:hover {
+    transform: translateY(8px);
+}
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: var(--main-gray);
+    border-top: 4px solid var(--main-blue);
+}
+footer > p {
+    margin: 2rem;
+}
+footer i {
+    vertical-align: middle;
+}
+@media (max-width: 28.75em) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:980px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+/* para 700px o menos */
+@media screen and (max-width:700px) {
+    html {
+        font-size: 58%;
+    }
+}
+
+/* para 480px o menos */
+@media screen and (max-width:480px) {
+    html {
+        font-size: 55%;
+    }
+    .welcome-section > p {
+        text-align: center;
+    }
+    .grid-cards {
+        justify-items: center;
+    }
+    .contact-links {
+        justify-items: center;
+    }
+    .nav-list a {
+        font-size: 11px;
+    }
+}
