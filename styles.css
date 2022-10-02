@@ -41,6 +41,9 @@ a {
     text-decoration: none;
     color: var(--main-white);
 }
+hr {
+    height: 8px;
+}
 .nav {
     display: flex;
     justify-content: center;
@@ -87,6 +90,16 @@ a {
     font-style: italic;
     color: var(--main-blue);
 }
+.works-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background-color: var(--second-blue);
+}
+.works-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+}
 .projects-section {
     text-align: center;
     padding: 10rem 2rem;
@@ -97,7 +110,18 @@ a {
     margin: 0 auto 6rem auto;
     border-bottom: 0.2rem solid var(--main-white);
 }
-.grid-cards {
+.grid-cards-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 7rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    justify-content: center;
+    justify-items: center;
+}
+.grid-cards-2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 7rem;
@@ -234,13 +258,19 @@ footer i {
     .welcome-section > p {
         text-align: center;
     }
-    .grid-cards {
+    .grid-cards-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-cards-2 {
         justify-items: center;
     }
     .contact-links {
         justify-items: center;
     }
+    .nav-list i {
+        visibility: hidden;
+    }
     .nav-list a {
-        font-size: 11px;
+        font-size: 12px;
     }
 }
