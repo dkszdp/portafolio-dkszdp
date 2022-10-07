@@ -5,7 +5,8 @@ Proyecto desarrollado para la obtención de un portafolio o contenedor de alguno
 
 ## Codificado con
 [![HTML5][HTML5]] \
-[![CSS3][CSS3]]
+[![CSS3][CSS3]] \
+[![Vue][Vue.js]][Vue-url]
 
 ## Roadmap
 - [x] Desarrollar el Portafolio
