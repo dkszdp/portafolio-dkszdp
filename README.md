@@ -10,21 +10,22 @@
   </ol>
 </details>
 
-## Sobre el proyecto
+## Sobre el proyecto 📑
 Proyecto desarrollado para la obtención de un portafolio o contenedor de algunos de mis trabajos o proyectos.
 
-## Codificado con
+## Codificado con 📝
 - HTML 5
 - CSS 3
 
-## Roadmap
+## Roadmap 🚀
 - [x] Desarrollar el Portafolio
 - [x] Subirlo a GitHub Pages
 - [ ] Terminar de añadir los trabajos y/o proyectos
 - [x] Subir el README principal
+    - [ ] Poner en el README los shields del html y css
 - [ ] Traducir el README a inglés
 
-## Contacto
+## Contacto 📱
 - [**dkszdp**⚡](https://github.com/dkszdp)
 - [**Visualiza el proyecto**](https://dkszdp.github.io/portafolio-dkszdp/)
 
