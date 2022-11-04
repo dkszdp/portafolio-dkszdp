@@ -26,15 +26,24 @@
   </ol>
 </details>
 
+<a name="abouttheproject"></a>
+
 ### About the project 📑
 Project developed to obtain a portfolio or container of some of my work or projects.
+
+<a name="coding"></a>
 
 ### Codificado con 📝
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
+<a name="translations"></a>
+
 ### Traducciones del README
-<kbd>[<img title="Inglés" alt="Inglés" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/gb.svg" width="22">]()</kbd>
+<kbd>[<img title="Español" alt="Español" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/es.svg" width="22">](../README.md)</kbd>
+<kbd>[<img title="Inglés" alt="Inglés" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/gb.svg" width="22">](./README.ing.md)</kbd>
+
+<a name="roadmap"></a>
 
 ### Roadmap 🚀
 - [x] Developing the Portfolio
@@ -43,6 +52,8 @@ Project developed to obtain a portfolio or container of some of my work or proje
 - [x] Upload the main README
     - [x] Put in the README the html and css shields
 - [x] Translate the README into English
+
+<a name="contact"></a>
 
 ### Contacto 📱
 - [**dkszdp**⚡](https://github.com/dkszdp)

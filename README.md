@@ -26,15 +26,24 @@
   </ol>
 </details>
 
+<a name="sobreelproyecto"></a>
+
 ### Sobre el proyecto 📑
 Proyecto desarrollado para la obtención de un portafolio o contenedor de algunos de mis trabajos o proyectos.
+
+<a name="codificacion"></a>
 
 ### Codificado con 📝
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
+<a name="traducciones"></a>
+
 ### Traducciones del README
-<kbd>[<img title="Inglés" alt="Inglés" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/gb.svg" width="22">]()</kbd>
+<kbd>[<img title="Español" alt="Español" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/es.svg" width="22">](./README.md)</kbd>
+<kbd>[<img title="Inglés" alt="Inglés" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/gb.svg" width="22">](./translations/README.ing.md)</kbd>
+
+<a name="roadmap"></a>
 
 ### Roadmap 🚀
 - [x] Desarrollar el Portafolio
@@ -43,6 +52,8 @@ Proyecto desarrollado para la obtención de un portafolio o contenedor de alguno
 - [x] Subir el README principal
     - [x] Poner en el README los shields del html y css
 - [x] Traducir el README a inglés
+
+<a name="contacto"></a>
 
 ### Contacto 📱
 - [**dkszdp**⚡](https://github.com/dkszdp)
