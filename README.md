@@ -15,7 +15,7 @@
 
 <hr>
 
-<details>
+<details open>
   <summary>Contenidos</summary>
   <ol>
     <li><a href="#sobreelproyecto">Sobre el proyecto</a></li>
@@ -53,6 +53,7 @@ Proyecto desarrollado para la obtención de un portafolio o contenedor de alguno
 - [x] Subir el README principal
     - [x] Poner en el README los shields del html y css
 - [x] Traducir el README a inglés
+- [x] Añadir script de JS (navidad)
 
 <a name="contacto"></a>
 

@@ -15,7 +15,7 @@
 
 <hr>
 
-<details>
+<details open>
   <summary>Contents</summary>
   <ol>
     <li><a href="#abouttheproject">About the project</a></li>
@@ -53,6 +53,7 @@ Project developed to obtain a portfolio or container of some of my work or proje
 - [x] Upload the main README
     - [x] Put in the README the html and css shields
 - [x] Translate the README into English
+- [x] Add JS script (christmas)
 
 <a name="contact"></a>
 
