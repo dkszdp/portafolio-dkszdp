@@ -1,3 +1,5 @@
+//<button id="boton"><img src="./img/mn.png"></button> (<- esto va al inicio del body)
+
 const boton = document.getElementById("boton")
 const h1 = document.getElementById("h1")
 const h2t = document.getElementById("h2t")
