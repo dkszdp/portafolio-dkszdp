@@ -1,4 +1,5 @@
 //<button id="boton"><img src="./img/mn.png"></button> (<- esto va al inicio del body)
+//<script defer src="./index.js"></script> (<- esto va en el head debajo de los styles)
 
 const boton = document.getElementById("boton")
 const h1 = document.getElementById("h1")
