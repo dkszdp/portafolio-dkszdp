@@ -77,21 +77,6 @@ hr {
 .titulo {
     display: inline-block;
 }
-.h1titulo {
-    color: white;
-    overflow: hidden;
-    border-right: 1rem solid var(--main-blue);
-    white-space: nowrap;
-    animation: typing 1.5s steps(20, end) forwards, blinking .75 infinite;
-}
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-}
-@keyframes blinking {
-    from { border-color: transparent; }
-    to { border-color: var(--main-blue); }
-}
 .welcome-section {
     display: flex;
     flex-direction: column;
